@@ -10,6 +10,7 @@ const typeDefs = gql`
     bookCount: Int
     savedBooks: [Book]
   }
+  
   type Book {
     bookId: String!
     authors: [String]

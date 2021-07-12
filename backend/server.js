@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3001;
 
 // packages required
 
-require('dotenv').config():
+require('dotenv').config();
 const path = require('path');
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
